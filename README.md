@@ -1,24 +1,28 @@
-# Ecme - The Ultimate React, Vite & TypeScript Web Template
+# porteria.com – Modern Dashboard Interface 🚀
 
-Ecme is a modern and responsive admin dashboard template built with React and TypeScript. Designed to provide a highly customizable and easy-to-use platform for building admin interfaces, it includes a variety of reusable components, pre-designed pages, and dynamic features. 
+Welcome to the **next-generation dashboard interface** for [porteria.com](https://porteria.com/)!  
+This project brings a beautiful, intuitive, and super-fast admin experience, rebuilt with React, Tailwind CSS, and a custom color palette inspired by the latest design trends.
 
-This template is perfect for developing dashboards, web applications, CRM systems, e-commerce backends, and more. Whether you're building a small-scale admin panel or a large-scale enterprise application, Ecme is designed to be flexible and scalable.
+![Porteria Dashboard Screenshot](./screenshot.png)
 
-Key Features:
-- **Responsive Layout**: Optimized for all screen sizes and devices.
-- **Dark/Light Mode**: Easily switch between light and dark themes.
-- **Configurable Themes**: Personalize colors, layouts, and more to fit your needs.
-- **Built with React + TypeScript**: Ensures robust type-checking and fast development.
-- **Multi-Locale Support**: Easily add and manage multiple languages.
-- **RTL Support**: Full Right-to-Left support for languages like Arabic or Hebrew.
-- **Tailwind Component-Based Architecture**: Reusable components to streamline your development process.
-- **API Ready**: Simple integration with any RESTful API.
+## ✨ What's New & Awesome
 
----
-### Demo
-Check out the [Live Demo](https://ecme-react.themenate.net/) to explore the template in action.
+- **Completely New Design**: Clean, modern, and fully responsive layout for a seamless experience on any device.
+- **Custom Brand Palette**: Unique Porteria colors (Royal Blue, Dodger Blue, Lime Yellow, Oil Black) for a fresh, recognizable look.
+- **Dynamic Sidebar**: Sidebar that expands and collapses, with a logo that adapts perfectly to each state.
+- **Improved Logo Integration**: Brand new SVG logo (with and without text) for sharp rendering at any size.
+- **Interactive Analytics**: Overview cards with vibrant color-coded icons (yellow, blue, and cyan backgrounds) for instant visual insights.
+- **Animated Charts**: Beautiful and interactive charts to visualize data trends with style.
+- **Fully Modular Components**: Easy to customize and extend. Cards, menus, and dashboards are component-based.
+- **Dark & Light Modes**: Toggle instantly between light and dark themes, always with the brand's palette.
+- **Lightning Fast**: Built with Vite for instant reloads and the smoothest developer experience.
+- **Internationalization Ready**: Structure prepared for easy language switching.
+- **Best Practices**: Clean code, accessibility, and modern patterns throughout.
 
+## 🚀 How to Run Locally
 
-### Guide
-Please visit our [Online documentation](https://ecme-react.themenate.net/guide/documentation/introduction) for detailed guides, setup instructions, and customization options.
-
+```bash
+git clone https://github.com/NoisGit/dashboardPorteria.git
+cd dashboardPorteria
+npm install
+npm run dev
