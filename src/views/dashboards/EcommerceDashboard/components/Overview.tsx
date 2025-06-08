@@ -110,7 +110,7 @@ const Overview = ({ data }: StatisticGroupsProps) => {
     return (
         <Card>
             <div className="flex items-center justify-between">
-                <h4>Overview</h4>
+                <h4>Vista General</h4>
                 <Select
                     className="w-[120px]"
                     size="sm"

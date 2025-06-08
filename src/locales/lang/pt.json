@@ -1,0 +1,163 @@
+{
+    "nav": {
+        "dashboard": {
+            "dashboard": "Painel",
+            "ecommerce": "Comércio Eletrônico",
+            "analytic": "Analítica",
+            "project": "Projeto",
+            "marketing": "Marketing"
+        },
+        "concepts": "Conceitos",
+        "conceptsAi": {
+            "ai": "IA",
+            "chat": "Chat",
+            "image": "Imagem"
+        },
+        "conceptsCustomers": {
+            "customers": "Clientes",
+            "customerList": "Lista",
+            "customerEdit": "Editar",
+            "customerCreate": "Criar",
+            "customerDetails": "Detalhes"
+        },
+        "conceptsProducts": {
+            "products": "Produtos",
+            "productList": "Lista",
+            "productEdit": "Editar",
+            "productCreate": "Criar"
+        },
+        "conceptsProjects": {
+            "scrumBoard": "Quadro",
+            "projects": "Projetos",
+            "projectList": "Lista",
+            "projectDetails": "Detalhes",
+            "projectTasks": "Tarefas",
+            "projectIssue": "Problema"
+        },
+        "conceptsOrders": {
+            "orders": "Pedidos",
+            "orderList": "Lista",
+            "orderEdit": "Editar",
+            "orderDetails": "Detalhes",
+            "orderCreate": "Criar"
+        },
+        "conceptsAccount": {
+            "account": "Conta",
+            "settings": "Configurações",
+            "activityLog": "Registro de Atividades",
+            "pricing": "Preços",
+            "rolesPermissions": "Funções e Permissões"
+        },
+        "conceptsHelpCenter": {
+            "helpCenter": "Centro de Ajuda",
+            "supportHub": "Central de Suporte",
+            "article": "Artigo",
+            "editArticle": "Editar Artigo",
+            "manageArticle": "Gerenciar Artigos",
+            "faq": "Perguntas Frequentes"
+        },
+        "calendar": "Calendário",
+        "fileManager": "Gerenciador de Arquivos",
+        "mail": "Correio",
+        "chat": "Chat",
+        "uiComponents": "Componentes UI",
+        "uiComponentsCommon": {
+            "common": "Comum",
+            "grid": "Grade",
+            "button": "Botão",
+            "typography": "Tipografia",
+            "icons": "Ícones"
+        },
+        "uiComponentsFeedback": {
+            "feedback": "Feedback",
+            "alert": "Alerta",
+            "dialog": "Diálogo",
+            "drawer": "Gaveta",
+            "progress": "Progresso",
+            "skeleton": "Esqueleto",
+            "spinner": "Carregando",
+            "toast": "Notificação"
+        },
+        "uiComponentsDataDisplay": {
+            "dataDisplay": "Exibição de Dados",
+            "avatar": "Avatar",
+            "badge": "Distintivo",
+            "calendar": "Calendário",
+            "cards": "Cartões",
+            "table": "Tabela",
+            "tag": "Etiqueta",
+            "timeline": "Linha do Tempo",
+            "tooltip": "Dica de Ferramenta"
+        },
+        "uiComponentsForms": {
+            "forms": "Formulários",
+            "checkbox": "Caixa de Seleção",
+            "datePicker": "Seletor de Data",
+            "formControl": "Controle de Formulário",
+            "input": "Entrada",
+            "inputGroup": "Grupo de Entrada",
+            "radio": "Botão de Opção",
+            "segment": "Segmento",
+            "select": "Selecionar",
+            "slider": "Deslizante",
+            "switcher": "Interruptor",
+            "timeInput": "Entrada de Hora",
+            "upload": "Carregar"
+        },
+        "uiComponentsNavigation": {
+            "navigation": "Navegação",
+            "dropdown": "Suspenso",
+            "menu": "Menu",
+            "pagination": "Paginação",
+            "steps": "Etapas",
+            "tabs": "Abas"
+        },
+        "uiComponentsGraph": {
+            "graph": "Gráficos",
+            "charts": "Gráficos",
+            "maps": "Mapas"
+        },
+        "pages": {
+            "pages": "Páginas",
+            "welcome": "Boas-vindas",
+            "accessDenied": "Acesso Negado"
+        },
+        "authentication": {
+            "authentication": "Autenticação",
+            "signIn": "Entrar",
+            "signInSimple": "Simples",
+            "signInSide": "Lateral",
+            "signInSplit": "Dividido",
+            "signUp": "Registrar",
+            "signUpSimple": "Simples",
+            "signUpSide": "Lateral",
+            "signUpSplit": "Dividido",
+            "forgotPassword": "Esqueci a Senha",
+            "forgotPasswordSimple": "Simples",
+            "forgotPasswordSide": "Lateral",
+            "forgotPasswordSplit": "Dividido",
+            "resetPassword": "Redefinir Senha",
+            "resetPasswordSimple": "Simples",
+            "resetPasswordSide": "Lateral",
+            "resetPasswordSplit": "Dividido",
+            "otpVerification": "Verificação de Código",
+            "otpVerificationSimple": "Simples",
+            "otpVerificationSide": "Lateral",
+            "otpVerificationSplit": "Dividido"
+        },
+        "others": {
+            "others": "Outros",
+            "accessDenied": "Acesso Negado",
+            "accessDeniedDesc": "Página de acesso negado",
+            "landing": "Landing",
+            "landingDesc": "Página de landing"
+        },
+        "guide": {
+            "guide": "Guia",
+            "documentation": "Documentação",
+            "sharedComponentDoc": "Componente Compartilhado",
+            "utilsDoc": "Utilitários",
+            "changeLog": "Registro de Alterações"
+        }
+    }
+}

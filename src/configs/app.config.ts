@@ -12,7 +12,7 @@ const appConfig: AppConfig = {
     apiPrefix: '/api',
     authenticatedEntryPath: '/dashboards/ecommerce',
     unAuthenticatedEntryPath: '/sign-in',
-    locale: 'en',
+    locale: 'es',
     accessTokenPersistStrategy: 'localStorage',
     enableMock: true,
     activeNavTranslation: true,

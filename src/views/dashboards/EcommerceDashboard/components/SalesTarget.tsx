@@ -22,7 +22,7 @@ const SalesTarget = ({ data }: SalesTargetProps) => {
     return (
         <Card>
             <div className="flex items-center justify-between mb-4">
-                <h4>Sales target</h4>
+                <h4>Género de Visitantes</h4>
                 <Select
                     className="w-[120px]"
                     size="sm"
