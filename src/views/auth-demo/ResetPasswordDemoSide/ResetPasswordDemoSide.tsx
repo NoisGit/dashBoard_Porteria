@@ -1,5 +1,5 @@
 import { ResetPasswordBase } from '@/views/auth/ResetPassword'
-import Side from '@/components/layouts/AuthLayout/Side'
+import Side from '@/views/auth/SignIn/Side'
 
 const ResetPasswordDemoSide = () => {
     return (

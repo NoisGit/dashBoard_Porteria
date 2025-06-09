@@ -1,5 +1,4 @@
 import Header from '@/components/template/Header'
-import SidePanel from '@/components/template/SidePanel'
 import UserProfileDropdown from '@/components//template/UserProfileDropdown'
 import LanguageSelector from '@/components/template/LanguageSelector'
 import Notification from '@/components/template/Notification'
@@ -10,6 +9,7 @@ import HorizontalNav from '@/components/template/HorizontalNav'
 import LayoutBase from '@/components//template/LayoutBase'
 import classNames from '@/utils/classNames'
 import useScrollTop from '@/utils/hooks/useScrollTop'
+import ModeSwitcher from '@/components/template/ThemeConfigurator/ModeSwitcher'
 import useResponsive from '@/utils/hooks/useResponsive'
 import { LAYOUT_CONTENT_OVERLAY } from '@/constants/theme.constant'
 import type { CommonProps } from '@/@types/common'
@@ -118,7 +118,7 @@ const ContentOverlay = ({ children }: CommonProps) => {
                                 <Search />
                                 <LanguageSelector />
                                 <Notification />
-                                <SidePanel />
+                                <ModeSwitcher />
                                 <UserProfileDropdown hoverable={false} />
                             </>
                         }

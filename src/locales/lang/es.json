@@ -2,7 +2,6 @@
     "nav": {
         "dashboard": {
             "dashboard": "Panel",
-            "ecommerce": "Comercio Electrónico",
             "analytic": "Analítica",
             "project": "Proyecto",
             "marketing": "Marketing"
@@ -49,11 +48,16 @@
             "rolesPermissions": "Roles y Permisos"
         },
         "conceptsHelpCenter": {
-            "helpCenter": "Centro de Ayuda",
+            "helpCenter": "Noticias",
+            "helpCenterDesc": "Noticias y artículos",
             "supportHub": "Centro de Soporte",
+            "supportHubDesc": "Central de soporte",
             "article": "Artículo",
+            "articleDesc": "Leer artículos",
             "editArticle": "Editar Artículo",
+            "editArticleDesc": "Editar contenido de artículos",
             "manageArticle": "Administrar Artículos",
+            "manageArticleDesc": "Administrar artículos",
             "faq": "Preguntas Frecuentes"
         },
         "calendar": "Calendario",

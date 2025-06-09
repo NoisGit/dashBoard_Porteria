@@ -5,8 +5,8 @@ import type { Routes } from '@/@types/routes'
 
 const dashboardsRoute: Routes = [
     {
-        key: 'dashboard.ecommerce',
-        path: `${DASHBOARDS_PREFIX_PATH}/ecommerce`,
+        key: 'dashboard.dashboard',
+        path: `${DASHBOARDS_PREFIX_PATH}`, // Ahora esto es '/dashboard'
         component: lazy(() => import('@/views/dashboards/EcommerceDashboard')),
         authority: [ADMIN, USER],
         meta: {

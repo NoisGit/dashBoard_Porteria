@@ -9,6 +9,7 @@ import appConfig from '@/configs/app.config'
 import { useThemeStore } from '@/store/themeStore'
 import { useRouteKeyStore } from '@/store/routeKeyStore'
 import { useSessionUser } from '@/store/authStore'
+import Logo from '@/components/template/Logo'
 
 const VerticalMenuContent = lazy(
     () => import('@/components/template/VerticalMenuContent'),
@@ -50,7 +51,7 @@ const MobileNav = ({
                 <MobileNavToggle toggled={isOpen} />
             </div>
             <Drawer
-                title="Navigation"
+                title={<Logo logoWidth={160} />}
                 isOpen={isOpen}
                 bodyClass={classNames('p-0')}
                 width={330}

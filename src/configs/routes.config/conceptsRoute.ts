@@ -14,16 +14,6 @@ const conceptsRoute: Routes = [
         },
     },
     {
-        key: 'concepts.ai.image',
-        path: `${CONCEPTS_PREFIX_PATH}/ai/image`,
-        component: lazy(() => import('@/views/concepts/ai/Image')),
-        authority: [ADMIN, USER],
-        meta: {
-            pageContainerType: 'contained',
-            pageBackgroundType: 'plain',
-        },
-    },
-    {
         key: 'concepts.customers.customerList',
         path: `${CONCEPTS_PREFIX_PATH}/customers/customer-list`,
         component: lazy(
@@ -269,7 +259,7 @@ const conceptsRoute: Routes = [
     },
     {
         key: 'concepts.helpCenter.supportHub',
-        path: `${CONCEPTS_PREFIX_PATH}/help-center/support-hub`,
+        path: `${CONCEPTS_PREFIX_PATH}/news/support-hub`,
         component: lazy(
             () => import('@/views/concepts/help-center/SupportHub'),
         ),
@@ -281,7 +271,7 @@ const conceptsRoute: Routes = [
     },
     {
         key: 'concepts.helpCenter.article',
-        path: `${CONCEPTS_PREFIX_PATH}/help-center/article/:id`,
+        path: `${CONCEPTS_PREFIX_PATH}/news/article/:id`,
         component: lazy(() => import('@/views/concepts/help-center/Article')),
         authority: [ADMIN, USER],
         meta: {
@@ -291,7 +281,7 @@ const conceptsRoute: Routes = [
     },
     {
         key: 'concepts.helpCenter.editArticle',
-        path: `${CONCEPTS_PREFIX_PATH}/help-center/edit-article/:id`,
+        path: `${CONCEPTS_PREFIX_PATH}/news/edit-article/:id`,
         component: lazy(
             () => import('@/views/concepts/help-center/EditArticle'),
         ),
@@ -303,7 +293,7 @@ const conceptsRoute: Routes = [
     },
     {
         key: 'concepts.helpCenter.manageArticle',
-        path: `${CONCEPTS_PREFIX_PATH}/help-center/manage-article`,
+        path: `${CONCEPTS_PREFIX_PATH}/news/manage-article`,
         component: lazy(
             () => import('@/views/concepts/help-center/ManageArticle'),
         ),

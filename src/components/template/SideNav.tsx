@@ -7,7 +7,7 @@ import { useSessionUser } from '@/store/authStore'
 import { useRouteKeyStore } from '@/store/routeKeyStore'
 import navigationConfig from '@/configs/navigation.config'
 import appConfig from '@/configs/app.config'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom' // <--- OJO, asegúrate que sea react-router-dom
 import {
     SIDE_NAV_WIDTH,
     SIDE_NAV_COLLAPSED_WIDTH,
@@ -46,7 +46,6 @@ const SideNav = ({
     )
 
     const currentRouteKey = useRouteKeyStore((state) => state.currentRouteKey)
-
     const userAuthority = useSessionUser((state) => state.user.authority)
 
     return (
@@ -65,15 +64,16 @@ const SideNav = ({
                 style={{ height: '90px' }}
             >
                 <Logo
-    onlyIcon={sideNavCollapse}
-    className={classNames(
-        sideNavCollapse && 'ltr:ml-[11.5px] ltr:mr-[11.5px]',
-        sideNavCollapse
-            ? SIDE_NAV_CONTENT_GUTTER
-            : LOGO_X_GUTTER,
-    )}
-    imgClass="max-h-[48px]"
-/>
+                    onlyIcon={sideNavCollapse}
+                    disableLink // <-- Así evitamos doble <a>
+                    className={classNames(
+                        sideNavCollapse && 'ltr:ml-[11.5px] ltr:mr-[11.5px]',
+                        sideNavCollapse
+                            ? SIDE_NAV_CONTENT_GUTTER
+                            : LOGO_X_GUTTER,
+                    )}
+                    imgClass="max-h-[48px]"
+                />
             </Link>
             <div className={classNames('side-nav-content', contentClass)}>
                 <ScrollBar style={{ height: '100%' }} direction={direction}>

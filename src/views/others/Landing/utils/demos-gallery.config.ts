@@ -125,17 +125,19 @@ export const projectDemos = [
     },
 ]
 
+// Quitamos AI Image demo, si necesitas mantener AI Chat, déjalo así:
 export const aiDemos = [
     {
         id: 'aiChat',
         name: 'Chat',
         path: '/concepts/ai/chat',
     },
-    {
-        id: 'aiImage',
-        name: 'Image',
-        path: '/concepts/ai/image',
-    },
+    // Si necesitas eliminar image, déjalo solo con chat.
+    // {
+    //     id: 'aiImage',
+    //     name: 'Image',
+    //     path: '/concepts/ai/image',
+    // },
 ]
 
 export const appsDemos = [
@@ -165,22 +167,22 @@ export const helpCenterDemos = [
     {
         id: 'helpCenterSupportHub',
         name: 'Support Hub',
-        path: '/concepts/help-center/support-hub',
+        path: '/concepts/news/support-hub',
     },
     {
         id: 'helpCenterManageArticle',
         name: 'Manage Article',
-        path: '/concepts/help-center/manage-article',
+        path: '/concepts/news/manage-article',
     },
     {
         id: 'helpCenterArticle',
         name: 'Article',
-        path: '/concepts/help-center/article/pWBKE_0UiQ',
+        path: '/concepts/news/article/pWBKE_0UiQ',
     },
     {
         id: 'helpCenterArticleEdit',
         name: 'Article Edit',
-        path: 'concepts/help-center/edit-article/pWBKE_0UiQ',
+        path: '/concepts/news/edit-article/pWBKE_0UiQ',
     },
 ]
 
@@ -212,11 +214,6 @@ export const authDemos = [
         id: 'authSimpleSignIn',
         name: 'Sign In - Simple',
         path: '/auth/sign-in-simple',
-    },
-    {
-        id: 'authSideSignUp',
-        name: 'Sign Up - Side',
-        path: '/auth/sign-up-side',
     },
     {
         id: 'authForgetPasswordSplit',

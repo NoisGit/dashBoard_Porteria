@@ -1,5 +1,5 @@
 import { ForgotPasswordBase } from '@/views/auth/ForgotPassword'
-import Side from '@/components/layouts/AuthLayout/Side'
+import Side from '@/views/auth/SignIn/Side'
 
 const ForgotPasswordDemoSide = () => {
     return (

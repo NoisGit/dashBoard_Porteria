@@ -5,9 +5,9 @@ import MobileNav from '@/components/template/MobileNav'
 import Search from '@/components/template/Search'
 import LanguageSelector from '@/components/template/LanguageSelector'
 import Notification from '@/components/template/Notification'
-import UserProfileDropdown from '@/components//template/UserProfileDropdown'
-import SidePanel from '@/components//template/SidePanel'
-import LayoutBase from '@/components//template/LayoutBase'
+import UserProfileDropdown from '@/components/template/UserProfileDropdown'
+import ModeSwitcher from '@/components/template/ThemeConfigurator/ModeSwitcher'
+import LayoutBase from '@/components/template/LayoutBase'
 import useResponsive from '@/utils/hooks/useResponsive'
 import { LAYOUT_COLLAPSIBLE_SIDE } from '@/constants/theme.constant'
 import type { CommonProps } from '@/@types/common'
@@ -33,12 +33,13 @@ const CollapsibleSide = ({ children }: CommonProps) => {
                             </>
                         }
                         headerEnd={
-                            <>
+                            <div className="flex items-center gap-6">
                                 <LanguageSelector />
+                                <Search />
                                 <Notification />
-                                <SidePanel />
+                                <ModeSwitcher />
                                 <UserProfileDropdown hoverable={false} />
-                            </>
+                            </div>
                         }
                     />
                     <div className="h-full flex flex-auto flex-col">

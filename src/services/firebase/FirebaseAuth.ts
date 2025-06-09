@@ -1,6 +1,10 @@
-import { getAuth } from 'firebase/auth'
-import FirebaseApp from './FirebaseApp'
+// DESACTIVADO TEMPORALMENTE PORQUE NO USAMOS FIREBASE
 
-const FirebaseAuth = getAuth(FirebaseApp)
+// import { getAuth } from 'firebase/auth'
+// import FirebaseApp from './FirebaseApp'
 
-export default FirebaseAuth
+// const FirebaseAuth = getAuth(FirebaseApp)
+
+// export default FirebaseAuth
+
+export default {}

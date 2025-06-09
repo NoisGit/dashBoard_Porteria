@@ -1,5 +1,5 @@
 import { SignUpBase } from '@/views/auth/SignUp'
-import Side from '@/components/layouts/AuthLayout/Side'
+import Side from '@/views/auth/SignIn/Side'
 
 const SignUpDemoSide = () => {
     return (

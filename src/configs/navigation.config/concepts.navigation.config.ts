@@ -54,28 +54,12 @@ const conceptsNavigationConfig: NavigationTree[] = [
                         },
                         subMenu: [],
                     },
-                    {
-                        key: 'concepts.ai.image',
-                        path: `${CONCEPTS_PREFIX_PATH}/ai/image`,
-                        title: 'Image',
-                        translateKey: 'nav.conceptsAi.image',
-                        icon: 'aiImage',
-                        type: NAV_ITEM_TYPE_ITEM,
-                        authority: [ADMIN, USER],
-                        meta: {
-                            description: {
-                                translateKey: 'nav.conceptsAi.imageDesc',
-                                label: 'AI image processing',
-                            },
-                        },
-                        subMenu: [],
-                    },
                 ],
             },
             {
                 key: 'concepts.projects',
                 path: '',
-                title: 'Projects',
+                title: 'Reporte de problemas',
                 translateKey: 'nav.conceptsProjects.projects',
                 icon: 'projects',
                 type: NAV_ITEM_TYPE_COLLAPSE,
@@ -497,9 +481,9 @@ const conceptsNavigationConfig: NavigationTree[] = [
                 ],
             },
             {
-                key: 'concepts.helpCenter',
+                key: 'concepts.news',
                 path: '',
-                title: 'Help Center',
+                title: 'Noticias',
                 translateKey: 'nav.conceptsHelpCenter.helpCenter',
                 icon: 'helpCenter',
                 type: NAV_ITEM_TYPE_COLLAPSE,
@@ -512,8 +496,8 @@ const conceptsNavigationConfig: NavigationTree[] = [
                 },
                 subMenu: [
                     {
-                        key: 'concepts.helpCenter.supportHub',
-                        path: `${CONCEPTS_PREFIX_PATH}/help-center/support-hub`,
+                        key: 'concepts.news.supportHub',
+                        path: `${CONCEPTS_PREFIX_PATH}/news/support-hub`,
                         title: 'Support Hub',
                         translateKey: 'nav.conceptsHelpCenter.supportHub',
                         icon: 'helpCeterSupportHub',
@@ -530,7 +514,7 @@ const conceptsNavigationConfig: NavigationTree[] = [
                     },
                     {
                         key: 'concepts.helpCenter.article',
-                        path: `${CONCEPTS_PREFIX_PATH}/help-center/article/pWBKE_0UiQ`,
+                        path: `${CONCEPTS_PREFIX_PATH}/news/article/pWBKE_0UiQ`,
                         title: 'Article',
                         translateKey: 'nav.conceptsHelpCenter.article',
                         icon: 'helpCeterArticle',
@@ -547,7 +531,7 @@ const conceptsNavigationConfig: NavigationTree[] = [
                     },
                     {
                         key: 'concepts.helpCenter.editArticle',
-                        path: `${CONCEPTS_PREFIX_PATH}/help-center/edit-article/pWBKE_0UiQ`,
+                        path: `${CONCEPTS_PREFIX_PATH}/news/edit-article/pWBKE_0UiQ`,
                         title: 'Edit Article',
                         translateKey: 'nav.conceptsHelpCenter.editArticle',
                         icon: 'helpCeterEditArticle',
@@ -564,7 +548,7 @@ const conceptsNavigationConfig: NavigationTree[] = [
                     },
                     {
                         key: 'concepts.helpCenter.manageArticle',
-                        path: `${CONCEPTS_PREFIX_PATH}/help-center/manage-article`,
+                        path: `${CONCEPTS_PREFIX_PATH}/news/manage-article`,
                         title: 'Manage Article',
                         translateKey: 'nav.conceptsHelpCenter.manageArticle',
                         icon: 'helpCeterManageArticle',

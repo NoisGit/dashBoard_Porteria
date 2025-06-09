@@ -1,16 +1,14 @@
 import { SignInBase } from '@/views/auth/SignIn'
-import Side from '@/components/layouts/AuthLayout/Side'
+import Side from '@/views/auth/SignIn/Side'
 
-const SignInDemoSplit = () => {
+const SignInDemoSide = () => {
     return (
         <Side>
             <SignInBase
                 disableSubmit={true}
-                signUpUrl="/auth/sign-up-side"
-                forgetPasswordUrl="/auth/forgot-password-side"
             />
         </Side>
     )
 }
 
-export default SignInDemoSplit
+export default SignInDemoSide

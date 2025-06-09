@@ -56,12 +56,6 @@ const extra = (
                         desc: 'Sign out handler',
                     },
                     {
-                        propName: 'signUp',
-                        type: `<code>({userName: string, email: string, password: string}) => ({status: 'success' | 'failed', message: string})</code>`,
-                        default: `-`,
-                        desc: 'Sign up handler, return status & message as result',
-                    },
-                    {
                         propName: 'user',
                         type: `<code>{
     userId?: string | null

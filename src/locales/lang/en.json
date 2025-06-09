@@ -2,7 +2,6 @@
     "nav": {
         "dashboard": {
             "dashboard": "Dashboard",
-            "ecommerce": "Ecommerce",
             "analytic": "Analytic",
             "project": "Project",
             "marketing": "Marketing"
@@ -28,9 +27,10 @@
             "productCreate": "Create"
         },
         "conceptsProjects": {
-            "projects": "Projects",
+            "projects": "Issue Report",
             "projectList": "List",
             "projectDetails": "Details",
+            "scrumBoard": "Board",
             "projectTasks": "Tasks",
             "projectIssue": "Issue"
         },
@@ -49,11 +49,16 @@
             "rolesPermissions": "Roles & Permissions"
         },
         "conceptsHelpCenter": {
-            "helpCenter": "Help Center",
+            "helpCenter": "News",
+            "helpCenterDesc": "News and articles",
             "supportHub": "Support Hub",
+            "supportHubDesc": "Central support hub",
             "article": "Article",
+            "articleDesc": "Read news articles",
             "editArticle": "Edit Article",
+            "editArticleDesc": "Edit article content",
             "manageArticle": "Manage Article",
+            "manageArticleDesc": "Manage articles",
             "faq": "FAQ"
         },
         "calendar": "Calendar",

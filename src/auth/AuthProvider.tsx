@@ -2,12 +2,11 @@ import { useRef, useImperativeHandle, useState } from 'react'
 import AuthContext from './AuthContext'
 import appConfig from '@/configs/app.config'
 import { useSessionUser, useToken } from '@/store/authStore'
-import { apiSignIn, apiSignOut, apiSignUp } from '@/services/AuthService'
+import { apiSignIn, apiSignOut } from '@/services/AuthService'
 import { REDIRECT_URL_KEY } from '@/constants/app.constant'
 import { useNavigate } from 'react-router'
 import type {
     SignInCredential,
-    SignUpCredential,
     AuthResult,
     OauthSignInCallbackPayload,
     User,
@@ -89,31 +88,6 @@ function AuthProvider({ children }: AuthProviderProps) {
                 status: 'failed',
                 message: 'Unable to sign in',
             }
-            // eslint-disable-next-line  @typescript-eslint/no-explicit-any
-        } catch (errors: any) {
-            return {
-                status: 'failed',
-                message: errors?.response?.data?.message || errors.toString(),
-            }
-        }
-    }
-
-    const signUp = async (values: SignUpCredential): AuthResult => {
-        try {
-            const resp = await apiSignUp(values)
-            if (resp) {
-                handleSignIn({ accessToken: resp.token }, resp.user)
-                redirect()
-                return {
-                    status: 'success',
-                    message: '',
-                }
-            }
-            return {
-                status: 'failed',
-                message: 'Unable to sign up',
-            }
-            // eslint-disable-next-line  @typescript-eslint/no-explicit-any
         } catch (errors: any) {
             return {
                 status: 'failed',
@@ -130,6 +104,7 @@ function AuthProvider({ children }: AuthProviderProps) {
             navigatorRef.current?.navigate('/')
         }
     }
+
     const oAuthSignIn = (
         callback: (payload: OauthSignInCallbackPayload) => void,
     ) => {
@@ -145,7 +120,6 @@ function AuthProvider({ children }: AuthProviderProps) {
                 authenticated,
                 user,
                 signIn,
-                signUp,
                 signOut,
                 oAuthSignIn,
             }}

@@ -1,7 +1,6 @@
 import Logo from '@/components/template/Logo'
 import Alert from '@/components/ui/Alert'
 import SignInForm from './components/SignInForm'
-import OauthSignIn from './components/OauthSignIn'
 import ActionLink from '@/components/shared/ActionLink'
 import useTimeOutMessage from '@/utils/hooks/useTimeOutMessage'
 import { useThemeStore } from '@/store/themeStore'
@@ -13,12 +12,10 @@ type SignInProps = {
 }
 
 export const SignInBase = ({
-    signUpUrl = '/sign-up',
     forgetPasswordUrl = '/forgot-password',
     disableSubmit,
 }: SignInProps) => {
     const [message, setMessage] = useTimeOutMessage()
-
     const mode = useThemeStore((state) => state.mode)
 
     return (
@@ -57,6 +54,7 @@ export const SignInBase = ({
                     </div>
                 }
             />
+            {/* 
             <div className="mt-8">
                 <div className="flex items-center gap-2 mb-6">
                     <div className="border-t border-gray-200 dark:border-gray-800 flex-1 mt-[1px]" />
@@ -70,6 +68,8 @@ export const SignInBase = ({
                     setMessage={setMessage}
                 />
             </div>
+            */}
+            {/* 
             <div>
                 <div className="mt-6 text-center">
                     <span>{`Don't have an account yet?`} </span>
@@ -82,6 +82,7 @@ export const SignInBase = ({
                     </ActionLink>
                 </div>
             </div>
+            */}
         </>
     )
 }

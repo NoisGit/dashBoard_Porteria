@@ -1,6 +1,10 @@
-import { getFirestore } from 'firebase/firestore'
-import FirebaseApp from './FirebaseApp'
+// DESACTIVADO TEMPORALMENTE PORQUE NO USAMOS FIREBASE
 
-const FirebaseDB = getFirestore(FirebaseApp)
+// import { getFirestore } from 'firebase/firestore'
+// import FirebaseApp from './FirebaseApp'
 
-export default FirebaseDB
+// const FirebaseDB = getFirestore(FirebaseApp)
+
+// export default FirebaseDB
+
+export default {}

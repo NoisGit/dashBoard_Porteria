@@ -1,5 +1,5 @@
 import { OtpVerificationBase } from '@/views/auth/OtpVerification'
-import Side from '@/components/layouts/AuthLayout/Side'
+import Side from '@/views/auth/SignIn/Side'
 
 const OtpVerificationDemoSide = () => {
     return (
